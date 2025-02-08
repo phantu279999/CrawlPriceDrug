@@ -1,0 +1,36 @@
+{
+  "links": [
+    "https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai",
+    "https://dichvucong.dav.gov.vn/congbogiathuoc/index"
+  ],
+  "https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai": {
+    "format": "table",
+    "rows": {
+      "declaration_date": 0,
+      "name": 1,
+      "active_ingredient_name": 2,
+      "nd_hl": 3,
+      "gplh_gpnk": 4,
+      "dosage_form": 5,
+      "packaging_specifications": 6,
+      "DVT": 7,
+      "price": 8
+    }
+  },
+  "https://dichvucong.dav.gov.vn/congbogiathuoc/index": {
+    "format": "table",
+    "rows": {
+      "declaration_date": 1,
+      "status": 2,
+      "petition": 3,
+      "name": 4,
+      "hc_name": 5,
+      "nd_hl": 6,
+      "gplh_gpnk": 7,
+      "dosage_form": 8,
+      "packaging_specifications": 9,
+      "DVT": 10,
+      "price": 11
+    }
+  }
+}
