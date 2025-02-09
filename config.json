@@ -1,10 +1,11 @@
 {
   "links": [
-    "https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai",
     "https://dichvucong.dav.gov.vn/congbogiathuoc/index"
   ],
   "https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai": {
     "format": "table",
+    "format_date": "%d/%m/%Y",
+    "load_to": "redis",
     "rows": {
       "declaration_date": 0,
       "name": 1,
@@ -19,6 +20,8 @@
   },
   "https://dichvucong.dav.gov.vn/congbogiathuoc/index": {
     "format": "table",
+    "format_date": "%d/%m/%Y",
+    "load_to": "mysql",
     "rows": {
       "declaration_date": 1,
       "status": 2,

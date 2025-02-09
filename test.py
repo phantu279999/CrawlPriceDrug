@@ -151,3 +151,14 @@ b = [
      'nd_hl': 'Atorvastatin (dưới dạng Atorvastatin calcium trihydrate 10,85mg) 10mg , Amlodipine (dưới dạng Amlodipine besilate 6,94mg) 5mg',
      'gplh_gpnk': '383110181023', 'dosage_form': 'Viên nén bao phim', 'packaging_specifications': 'Hộp 3 vỉ x 10 viên',
      'DVT': 'viên', 'price': '9,000'}]
+
+import datetime
+
+C = {'declaration_date': datetime.datetime(2017, 12, 5, 0, 0), 'status': 'Đã rà soát, không có văn bản', 'petition': '', 'name': 'Hoàn quy tỳ TW3', 'hc_name': 'Mỗi hoàn mềm 8g chứa: Bạch linh 0,62g; Bạch truật 0,62g; Đương quy 0,62g; Hoàng kỳ 0,62g; Đảng sâm 0,31g; Long nhãn 0,31g; Táo nhân 0,31g; Đại táo 0,30g; Viễn trí 0,15g; Cam thảo 0,09g; Mộc hương 0,05g', 'nd_hl': '', 'gplh_gpnk': 'VD-25814-16', 'dosage_form': 'Hoàn mềm', 'packaging_specifications': 'Hộp 6 hoàn x 8g; Hộp 10 hoàn x 8g', 'DVT': 'hoàn', 'price': '6000', 'url': 'https://dichvucong.dav.gov.vn/congbogiathuoc/index'}
+
+fields = ','.join([key for key in C.keys()])
+values = ','.join([f"'{value}'" for value in C.values()])
+
+
+print(fields)
+print(values)

@@ -7,8 +7,9 @@ def extract_page_by_config(driver: BaseSelenium, url: str, config: dict) -> list
     datas = []
 
     driver.get_domain(url)
-    driver.wait_element('table', 'tag name')
-
+    if not driver.wait_element('table', 'tag name'):
+        return datas
+    time.sleep(1)
     soup = BeautifulSoup(driver.get_page_source(), 'html.parser')
 
     table_body = soup.find('tbody') or soup.find('table')  # Ensure table extraction is flexible

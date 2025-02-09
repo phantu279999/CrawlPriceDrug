@@ -12,3 +12,11 @@ db_redis = {
     "username": "",
     "password": ""
 }
+
+config_mysql = {
+	"host": "127.0.0.1",
+	"port": 3306,
+	"db": "tutorialbase",
+	"username": "root",
+	"password": "1234"
+}
