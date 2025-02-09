@@ -3,7 +3,7 @@
     "https://dichvucong.dav.gov.vn/congbogiathuoc/index"
   ],
   "https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai": {
-    "format": "table",
+    "format_crawl": "table",
     "format_date": "%d/%m/%Y",
     "load_to": "redis",
     "rows": {
@@ -19,7 +19,7 @@
     }
   },
   "https://dichvucong.dav.gov.vn/congbogiathuoc/index": {
-    "format": "table",
+    "format_crawl": "table",
     "format_date": "%d/%m/%Y",
     "load_to": "mysql",
     "rows": {

@@ -16,7 +16,7 @@ def extract_page_by_config(driver: BaseSelenium, url: str, config: dict) -> list
     if not table_body:
         return []
 
-    if config.get('format', '') == 'table':
+    if config.get('format_crawl', '') == 'table':
         for it in table_body.find_all('tr'):
             data = [ele.get_text(strip=True) for ele in it.find_all('td')]
             datas.append({field: data[idx] for field, idx in config['rows'].items() if idx < len(data)})
