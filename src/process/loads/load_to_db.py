@@ -6,8 +6,10 @@ from src.db_connection.base_mysql import BaseMySQL
 
 def load_to_db_redis(datas: list) -> None:
     rd = BaseRedis(db_redis)
+    hash_key = 'Drug'
     for data in datas:
         key = data.get('name', f"record_{hash(json.dumps(data))}")
+        rd.set_hash(hash_key, key, json.dumps(data, ensure_ascii=False))
         res = rd.set_string(key, json.dumps(data, ensure_ascii=False))
         print(res)
 

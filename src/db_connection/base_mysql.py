@@ -49,4 +49,4 @@ class BaseMySQL:
 
 if __name__ == '__main__':
 	db = BaseMySQL(config_mysql)
-	print(db.query("select id, title from news_news;"))
+	print(db.query("select * from Drug;"))

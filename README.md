@@ -10,8 +10,8 @@ CREATE TABLE Drug(
     status VARCHAR(255) NULL,
     petition VARCHAR(255) NULL,
     name VARCHAR(255) NOT NULL UNIQUE,
-    hc_name VARCHAR(255) NULL,
-    nd_hl VARCHAR(255) NULL,
+    hc_name VARCHAR(255) NULL, # Tên hoạt chất
+    nd_hl VARCHAR(255) NULL,  
     gplh_gpnk VARCHAR(255) NULL,
     dosage_form VARCHAR(255) NULL,
     packaging_specifications VARCHAR(255) NULL,
@@ -30,7 +30,13 @@ Example
 
 #### Cấu trúc dữ liệu trong Redis
 
+##### String Key
 key = "drug name"
+value = "string json"
+
+##### Hash Key
+Drug
+field = "drug name"
 value = "string json"
 
 Example

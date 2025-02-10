@@ -1,15 +1,15 @@
 {
   "links": [
-    "https://dichvucong.dav.gov.vn/congbogiathuoc/index"
+    "https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai"
   ],
   "https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai": {
     "format_crawl": "table",
     "format_date": "%d/%m/%Y",
-    "load_to": "redis",
+    "load_to": "mysql",
     "rows": {
       "declaration_date": 0,
       "name": 1,
-      "active_ingredient_name": 2,
+      "hc_name": 2,
       "nd_hl": 3,
       "gplh_gpnk": 4,
       "dosage_form": 5,

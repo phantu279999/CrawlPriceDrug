@@ -8,6 +8,6 @@ def clean_data_table(link: str, datas: list, config: dict) -> list:
             data['name'] = data['name'].replace("Xem chi tiết", "").strip()
         if ',' in data['price']:
             data['price'] = data['price'].replace(",", "")
-        data['declaration_date'] = datetime.strptime(data['declaration_date'], config['format_date'])
+        data['declaration_date'] = datetime.strptime(data['declaration_date'], config['format_date']).isoformat()
         data['url'] = link
     return datas

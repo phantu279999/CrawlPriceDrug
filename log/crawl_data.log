@@ -1,2 +1,145 @@
 2025-02-09 19:47:17,284 - CrawlData - INFO - Processing link 'https://dichvucong.dav.gov.vn/congbogiathuoc/index' ...
 2025-02-09 19:48:59,007 - CrawlData - INFO - Processing link 'https://dichvucong.dav.gov.vn/congbogiathuoc/index' ...
+2025-02-10 09:32:28,887 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:32:31,183 - CrawlData - ERROR - Error processing link https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai: Object of type datetime is not JSON serializable
+2025-02-10 09:33:10,852 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:33:31,352 - CrawlData - ERROR - Error processing link https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x008974A3+25091]
+	(No symbol) [0x0081DC04]
+	(No symbol) [0x006FB373]
+	(No symbol) [0x006F91BA]
+	(No symbol) [0x006ECE78]
+	(No symbol) [0x006EE760]
+	(No symbol) [0x006ED0C7]
+	(No symbol) [0x006ECC6B]
+	(No symbol) [0x006EC981]
+	(No symbol) [0x006EADF7]
+	(No symbol) [0x006EB33B]
+	(No symbol) [0x006FDDBE]
+	(No symbol) [0x0077BEC7]
+	(No symbol) [0x00761F0C]
+	(No symbol) [0x0077B49E]
+	(No symbol) [0x00761CA6]
+	(No symbol) [0x007331D5]
+	(No symbol) [0x0073435D]
+	GetHandleVerifier [0x00B907C3+3142947]
+	GetHandleVerifier [0x00BA1A2B+3213195]
+	GetHandleVerifier [0x00B9C412+3191154]
+	GetHandleVerifier [0x00938720+685184]
+	(No symbol) [0x00826E1D]
+	(No symbol) [0x00823E18]
+	(No symbol) [0x00823FB6]
+	(No symbol) [0x008166F0]
+	BaseThreadInitThunk [0x757CFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7729809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7729806E+238]
+
+2025-02-10 09:34:16,132 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:34:32,215 - CrawlData - ERROR - Error processing link https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai: Object of type datetime is not JSON serializable
+2025-02-10 09:38:18,780 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:38:39,513 - CrawlData - ERROR - Error processing link https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x008974A3+25091]
+	(No symbol) [0x0081DC04]
+	(No symbol) [0x006FB373]
+	(No symbol) [0x006F91BA]
+	(No symbol) [0x006ECE78]
+	(No symbol) [0x006EE760]
+	(No symbol) [0x006ED0C7]
+	(No symbol) [0x006ECC6B]
+	(No symbol) [0x006EC981]
+	(No symbol) [0x006EADF7]
+	(No symbol) [0x006EB33B]
+	(No symbol) [0x006FDDBE]
+	(No symbol) [0x0077BEC7]
+	(No symbol) [0x00761F0C]
+	(No symbol) [0x0077B49E]
+	(No symbol) [0x00761CA6]
+	(No symbol) [0x007331D5]
+	(No symbol) [0x0073435D]
+	GetHandleVerifier [0x00B907C3+3142947]
+	GetHandleVerifier [0x00BA1A2B+3213195]
+	GetHandleVerifier [0x00B9C412+3191154]
+	GetHandleVerifier [0x00938720+685184]
+	(No symbol) [0x00826E1D]
+	(No symbol) [0x00823E18]
+	(No symbol) [0x00823FB6]
+	(No symbol) [0x008166F0]
+	BaseThreadInitThunk [0x757CFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7729809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7729806E+238]
+
+2025-02-10 09:38:48,578 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:39:04,846 - CrawlData - ERROR - Error processing link https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x008974A3+25091]
+	(No symbol) [0x0081DC04]
+	(No symbol) [0x006FB373]
+	(No symbol) [0x006F91BA]
+	(No symbol) [0x006ECE78]
+	(No symbol) [0x006EE760]
+	(No symbol) [0x006ED0C7]
+	(No symbol) [0x006ECC6B]
+	(No symbol) [0x006EC981]
+	(No symbol) [0x006EADF7]
+	(No symbol) [0x006EB33B]
+	(No symbol) [0x006FDDBE]
+	(No symbol) [0x0077BEC7]
+	(No symbol) [0x00761F0C]
+	(No symbol) [0x0077B49E]
+	(No symbol) [0x00761CA6]
+	(No symbol) [0x007331D5]
+	(No symbol) [0x0073435D]
+	GetHandleVerifier [0x00B907C3+3142947]
+	GetHandleVerifier [0x00BA1A2B+3213195]
+	GetHandleVerifier [0x00B9C412+3191154]
+	GetHandleVerifier [0x00938720+685184]
+	(No symbol) [0x00826E1D]
+	(No symbol) [0x00823E18]
+	(No symbol) [0x00823FB6]
+	(No symbol) [0x008166F0]
+	BaseThreadInitThunk [0x757CFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7729809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7729806E+238]
+
+2025-02-10 09:39:15,111 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:39:27,369 - CrawlData - ERROR - Error processing link https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x008974A3+25091]
+	(No symbol) [0x0081DC04]
+	(No symbol) [0x006FB373]
+	(No symbol) [0x006F91BA]
+	(No symbol) [0x006ECE78]
+	(No symbol) [0x006EE760]
+	(No symbol) [0x006ED0C7]
+	(No symbol) [0x006ECC6B]
+	(No symbol) [0x006EC981]
+	(No symbol) [0x006EADF7]
+	(No symbol) [0x006EB33B]
+	(No symbol) [0x006FDDBE]
+	(No symbol) [0x0077BEC7]
+	(No symbol) [0x00761F0C]
+	(No symbol) [0x0077B49E]
+	(No symbol) [0x00761CA6]
+	(No symbol) [0x007331D5]
+	(No symbol) [0x0073435D]
+	GetHandleVerifier [0x00B907C3+3142947]
+	GetHandleVerifier [0x00BA1A2B+3213195]
+	GetHandleVerifier [0x00B9C412+3191154]
+	GetHandleVerifier [0x00938720+685184]
+	(No symbol) [0x00826E1D]
+	(No symbol) [0x00823E18]
+	(No symbol) [0x00823FB6]
+	(No symbol) [0x008166F0]
+	BaseThreadInitThunk [0x757CFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7729809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7729806E+238]
+
+2025-02-10 09:39:39,952 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:40:10,713 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
+2025-02-10 09:41:02,055 - CrawlData - INFO - Processing link 'https://congkhaiyte.moh.gov.vn/tra-cuu-gia-luu-hanh/tra-cuu-gia-thuoc-ke-khai' ...
