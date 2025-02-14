@@ -6,7 +6,7 @@ from src.selenium_base.base_selenium import BaseSelenium
 def extract_page_by_config(driver: BaseSelenium, url: str, config: dict) -> list:
     datas = []
 
-    driver.get_domain(url)
+    # driver.get_domain(url)
     if not driver.wait_element('table', 'tag name'):
         return datas
     time.sleep(1)

@@ -16,12 +16,14 @@
       "packaging_specifications": 6,
       "DVT": 7,
       "price": 8
-    }
+    },
+    "next_page": "//a[@class=\"next\"]",
+    "check_data": ""
   },
   "https://dichvucong.dav.gov.vn/congbogiathuoc/index": {
     "format_crawl": "table",
     "format_date": "%d/%m/%Y",
-    "load_to": "mysql",
+    "load_to": "redis",
     "rows": {
       "declaration_date": 1,
       "status": 2,
@@ -34,6 +36,8 @@
       "packaging_specifications": 9,
       "DVT": 10,
       "price": 11
-    }
+    },
+    "next_page": "//a[@aria-label=\"Go to the next page\"]/span",
+    "check_data": "//div[@class=\"k-loading-mask\"]"
   }
 }

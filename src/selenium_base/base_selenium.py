@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import requests
+from bs4 import element
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -290,6 +291,9 @@ class BaseSelenium:
 
 	def is_element_display(self, element):
 		return element.is_displayed()
+
+	def is_element_enable(self, element):
+		return element.is_enabled()
 
 	@staticmethod
 	def check_locator_type(locator_type):
