@@ -1,5 +1,27 @@
 # Crawl Price Drug
-### Dự án lấy dữ liệu giá của các loại thuốc của các trang
+### Dự án đơn giản lấy dữ liệu giá của các loại thuốc của các trang
+
+
+⚡ Cài đặt và chạy dự án
+
+```shell
+# Clone repository  
+git clone https://github.com/phantu279999/CrawlPriceDrug.git
+cd CrawlPriceDrug  
+
+# Tạo và kích hoạt virtual environment  
+python -m venv venv  
+source venv/bin/activate  # Windows: venv\Scripts\activate  
+
+# Cài đặt dependencies  
+pip install -r requirements.txt  
+
+# Chạy migration  
+python main.py  
+
+```
+
+Cấu hình lấy dự liệu các trang ở file: config.json
 
 
 ####  Cấu trúc dữ liệu trong MySQL
